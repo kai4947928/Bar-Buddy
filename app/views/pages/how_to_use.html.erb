@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>このアプリの使い方</title>
+  <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <div class="max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-blue-600 mb-6">このアプリの使い方</h1>
+
+    <p class="mb-4 text-lg leading-relaxed">
+      このアプリは、お家にあるお酒（ベース）とカクテルの難易度（技法）で検索していただき、<br>
+      今、作れるカクテルを見つけることができます！！
+    </p>
+
+    <p class="mb-4 text-lg leading-relaxed">
+      カクテルを投稿することもできるので、ぜひ挑戦してみてください！<br>
+      投稿したカクテルは、タブを切り替えることで、投稿したカクテル一覧の中で検索することができます。
+    </p>
+
+    <h2 class="text-2xl font-semibold text-blue-500 mt-6 mb-4">カクテルの難易度の取り決め</h2>
+    <ul class="list-disc pl-6 mb-6 text-lg">
+      <li><strong>初級：</strong>ステアやビルドで作れるカクテル</li>
+      <li><strong>中級：</strong>ブレンドで作れるカクテル</li>
+      <li><strong>上級：</strong>シェイクで作れるカクテル</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-blue-500 mt-6 mb-4">カクテルの技法の説明</h2>
+    <ul class="list-disc pl-6 mb-6 text-lg">
+      <li><strong>ステア：</strong>バースプーンで手早く混ぜる技法</li>
+      <li><strong>ビルド：</strong>直接グラスに作る技法</li>
+      <li><strong>ブレンド：</strong>ミキサーで混ぜて作る技法</li>
+      <li><strong>シェイク：</strong>シェイカーを振って作る技法</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-blue-500 mt-6 mb-4">マイページからできること</h2>
+    <p class="text-lg leading-relaxed mb-6">
+      マイページからカクテル投稿や投稿したカクテルを閲覧できます。
+    </p>
+
+    <h2 class="text-2xl font-semibold text-blue-500 mt-6 mb-4">投稿について</h2>
+    <p class="text-lg leading-relaxed">
+      オリジナルカクテルやアレンジカクテルを投稿してみよう！！<br>
+      今後少しづつ、カクテルレシピを増やしていきます。
+    </p>
+  </div>
+</body>
+</html>

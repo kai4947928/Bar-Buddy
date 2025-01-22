@@ -6,6 +6,8 @@ RUN apt-get update -qq && apt-get install -y postgresql-client \
   libpq-dev \
   libvips42 \
   nodejs \
+  npm \
+  && npm install -g yarn \
   git
 
 # 作業ディレクトリを作成
